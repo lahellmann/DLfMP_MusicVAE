@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/lehel/Desktop/UOS/Master/Sem2/DLfMP/MusicVAE/runs/my_model\\train\\model.ckpt-0"
+all_model_checkpoint_paths: "C:/Users/lehel/Desktop/UOS/Master/Sem2/DLfMP/MusicVAE/runs/my_model\\train\\model.ckpt-0"
