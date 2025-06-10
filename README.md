@@ -40,26 +40,10 @@ conda activate musicvae
 pip install -r requirements.txt
 ```
 
-### 3. Install Magenta
-
-```bash
-pip install magenta
-```
-
-### 4. Download Pretrained Model
-
-```bash
-mkdir -p MusicVAE/checkpoints/hier-mel_16bar
-cd MusicVAE/checkpoints/hier-mel_16bar
-wget https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hier-mel_16bar.tar
-tar -xvf hier-mel_16bar.tar
-```
 
 ## Usage
 
 Open `main.ipynb` to start using pretrained models or training your own. It uses the provided modules:
-- `generate.py`
-- `train.py`
-- `preprocess.py`
+
  ## References
  [1] Roberts, A., Engel, J., Raffel, C., Hawthorne, C., & Eck, D. (2019). A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music. arXiv [Cs.LG]. Retrieved from http://arxiv.org/abs/1803.05428
