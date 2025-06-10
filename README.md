@@ -1,6 +1,16 @@
 # Demo Code for the MusicVAE by [Adam Roberts, Jesse Engel, Colin Raffel, Curtis Hawthorne, Douglas Eck](https://github.com/hoofcas2/MusicVAE)
 This repository is a demo code for the course "Deep Learning for Music Processing" at the University of Osnabureck in the summer term 2025.
 
+## Introduction to MusicVAE
+MusicVAE is a machine learning model developed by researchers at Google (Magenta) that uses a variational autoencoder (VAE) to generate and transform music.
+It learns a compressed (latent) representation of music. With this it can then generate new music, reconstruct music, or interpolate between two musical sequences.
+It works especially well with long-term musical structure, like full melodies or multi-instrument tracks.
+
+Music VAE trains on MIDI data to learn musical patterns, then encodes sequences into a latent space (like musical DNA) and afterwards decodes those latent vectors back into music.
+this gives opportunity to be able to interpolate between songs, or manipulate style, tempo, structure, etc.
+
+## Available google colab by Roberts et al.
+This is a [copy](https://colab.research.google.com/drive/1tScO5apGPsOnqscjA_IMRyVdkr8uE8qn?usp=sharing) of the provided google colab that I debugged for easy usage.
 
 ## Setup Instructions
 
